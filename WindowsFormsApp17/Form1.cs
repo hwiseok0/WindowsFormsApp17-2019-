@@ -16,5 +16,12 @@ namespace WindowsFormsApp17
         {
             InitializeComponent();
         }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            this.button1.Text = "버튼클릭";
+
+            this.button1.Text = "버튼클릭"; this.button1.Text = "버튼클릭"; this.button1.Text = "버튼클릭";
+        }
     }
 }
